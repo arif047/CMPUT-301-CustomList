@@ -62,12 +62,12 @@ class CityListTest {
  
         assertEquals(1, cityList.getCities().size());
  
-        City city = new City("Regina", "Saskatchewan");
+        City city = new City("Ockland", "Regina");
         cityList.add(city);
  
         assertEquals(2, cityList.getCities().size());
  
-        cityList.delete(city);
+        cityList.Remove(city);
  
         assertEquals(1, cityList.getCities().size());
     }
@@ -78,7 +78,7 @@ class CityListTest {
  
         assertEquals(1, cityList.getCities().size());
  
-        City city = new City("Regina", "Saskatchewan");
+        City city = new City("Ockland", "Regina");
         cityList.add(city);
  
         assertEquals(2, cityList.getSize());
