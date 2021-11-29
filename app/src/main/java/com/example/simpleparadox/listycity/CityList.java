@@ -33,7 +33,7 @@ public class CityList{
   *@remove city
   *this is a city to remove
   */
-  public void remove(City city){
+  public void Remove(City city){
     if(cities.contains(city)){
        cities.remove(city);
     }
