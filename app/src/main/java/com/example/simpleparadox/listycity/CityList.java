@@ -1,7 +1,7 @@
 package com.example.simpleparadox.listycity;
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.list;
+import java.util.List;
 /**
 *this is a class that keep track of a list of city objects
 */
