@@ -46,10 +46,9 @@ public class CityList{
   *this rerturns a city the size of the citylist
   *@return size of citylist
   */
-  public void getSizeOfCities(){
-    int siz;
-    siz=cities.size();
-    return siz;
-  }
+     public int getSizeOfCities(){
+        List<City> list = cities;
+        return list.size();
+    }
 }
 
