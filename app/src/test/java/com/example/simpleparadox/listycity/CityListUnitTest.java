@@ -73,7 +73,7 @@ class CityListTest {
     }
  
     @Test
-    void getSizeOfCities() {
+    void testGetSizeOfCities() {
         CityList cityList = mockCityList();
  
         assertEquals(1, cityList.getCities().size());
