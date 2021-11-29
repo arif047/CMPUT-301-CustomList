@@ -57,7 +57,7 @@ class CityListTest {
  
  
     @Test
-    void testDelete() {
+    void Remove() {
         CityList cityList = mockCityList();
  
         assertEquals(1, cityList.getCities().size());
@@ -73,7 +73,7 @@ class CityListTest {
     }
  
     @Test
-    void testGetSize() {
+    void getSizeOfCities() {
         CityList cityList = mockCityList();
  
         assertEquals(1, cityList.getCities().size());
